@@ -14,5 +14,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UTexture2D* ItemTitle;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UMeshComponent* ItemForm;
+		TSubobjectPtr<UStaticMeshComponent> ItemForm;
 };
