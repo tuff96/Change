@@ -12,5 +12,7 @@ class CHANGE_API UItemBase:public UObject
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UImage ItemTitle;
+		UTexture2D* ItemTitle;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UMeshComponent* ItemForm;
 };
